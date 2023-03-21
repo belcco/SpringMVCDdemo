@@ -20,7 +20,7 @@ import com.example.services.EstudianteService;
 // El servlet que el servidor web esta esperando una peticion que termina en /, se relaciona a través de
 // @RequestMapping, que manda todas las peticiones al handlermapping (manejadores) que son los métodos
 // dentro del public class maincontroller
-@RequestMapping("/ ")
+@RequestMapping("/")
 public class MainController {
 
     @Autowired
